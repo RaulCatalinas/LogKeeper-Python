@@ -1,0 +1,1 @@
+C:\Users\raulc\Desktop\Dev\Packages\LogKeeper-Python\target\release\logkeeper.dll: C:\Users\raulc\Desktop\Dev\Packages\LogKeeper-Python\src\lib.rs C:\Users\raulc\Desktop\Dev\Packages\LogKeeper-Python\src\log_level.rs

@@ -1,0 +1,14 @@
+C:\Users\raulc\Desktop\Dev\Packages\LogKeeper-Python\target\release\deps\pyo3_build_config-c47ab9a70d7b94c8.d: C:\Users\raulc\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.25.1\src\lib.rs C:\Users\raulc\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.25.1\src\errors.rs C:\Users\raulc\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.25.1\src\impl_.rs C:\Users\raulc\Desktop\Dev\Packages\LogKeeper-Python\target\release\build\pyo3-build-config-b00e6d23d5c0425d\out/pyo3-build-config-file.txt C:\Users\raulc\Desktop\Dev\Packages\LogKeeper-Python\target\release\build\pyo3-build-config-b00e6d23d5c0425d\out/pyo3-build-config.txt
+
+C:\Users\raulc\Desktop\Dev\Packages\LogKeeper-Python\target\release\deps\libpyo3_build_config-c47ab9a70d7b94c8.rlib: C:\Users\raulc\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.25.1\src\lib.rs C:\Users\raulc\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.25.1\src\errors.rs C:\Users\raulc\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.25.1\src\impl_.rs C:\Users\raulc\Desktop\Dev\Packages\LogKeeper-Python\target\release\build\pyo3-build-config-b00e6d23d5c0425d\out/pyo3-build-config-file.txt C:\Users\raulc\Desktop\Dev\Packages\LogKeeper-Python\target\release\build\pyo3-build-config-b00e6d23d5c0425d\out/pyo3-build-config.txt
+
+C:\Users\raulc\Desktop\Dev\Packages\LogKeeper-Python\target\release\deps\libpyo3_build_config-c47ab9a70d7b94c8.rmeta: C:\Users\raulc\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.25.1\src\lib.rs C:\Users\raulc\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.25.1\src\errors.rs C:\Users\raulc\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.25.1\src\impl_.rs C:\Users\raulc\Desktop\Dev\Packages\LogKeeper-Python\target\release\build\pyo3-build-config-b00e6d23d5c0425d\out/pyo3-build-config-file.txt C:\Users\raulc\Desktop\Dev\Packages\LogKeeper-Python\target\release\build\pyo3-build-config-b00e6d23d5c0425d\out/pyo3-build-config.txt
+
+C:\Users\raulc\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.25.1\src\lib.rs:
+C:\Users\raulc\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.25.1\src\errors.rs:
+C:\Users\raulc\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.25.1\src\impl_.rs:
+C:\Users\raulc\Desktop\Dev\Packages\LogKeeper-Python\target\release\build\pyo3-build-config-b00e6d23d5c0425d\out/pyo3-build-config-file.txt:
+C:\Users\raulc\Desktop\Dev\Packages\LogKeeper-Python\target\release\build\pyo3-build-config-b00e6d23d5c0425d\out/pyo3-build-config.txt:
+
+# env-dep:CARGO_PKG_VERSION=0.25.1
+# env-dep:OUT_DIR=C:\\Users\\raulc\\Desktop\\Dev\\Packages\\LogKeeper-Python\\target\\release\\build\\pyo3-build-config-b00e6d23d5c0425d\\out
