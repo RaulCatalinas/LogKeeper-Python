@@ -1,0 +1,12 @@
+[project]
+name = "logkeeper-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "maturin>=1.9.6",
+]
