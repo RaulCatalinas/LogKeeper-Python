@@ -1,15 +1,15 @@
 [package]
-name = "logkeeper"
+name = "py_logkeeper"
 version = "1.0.0"
 edition = "2024"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
-name = "logkeeper"
+name = "py_logkeeper"
 crate-type = ["cdylib"]
 
 [dependencies]
 chrono = "0.4.42"
 once_cell = "1.21.3"
 parking_lot = "0.12.5"
-pyo3 = "0.25.0"
+pyo3 = "0.27.0"
