@@ -1,14 +1,13 @@
-[build-system]
-requires = ["maturin>=1.9,<2.0"]
-build-backend = "maturin"
-
-
 [project]
 name = "logkeeper_py"
 version = "1.0.0"
 description = "Simple file logger that works out of the box with automatic timestamping and session management"
 requires-python = ">=3.9"
 dependencies = []
+
+[build-system]
+requires = ["maturin>=1.9,<2.0"]
+build-backend = "maturin"
 
 [dependency-groups]
 dev = ["maturin>=1.9.6"]
