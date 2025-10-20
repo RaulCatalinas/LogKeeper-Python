@@ -7,5 +7,6 @@ use pyo3::prelude::*;
 #[pymodule]
 fn logkeeper_py(_py: Python, m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_class::<crate::pybindings::LogKeeper>()?;
+    m.add("__all__", vec!["LogKeeper"])?;
     Ok(())
 }
