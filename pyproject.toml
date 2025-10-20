@@ -4,7 +4,7 @@ build-backend = "maturin"
 
 
 [project]
-name = "py_logkeeper"
+name = "logkeeper_py"
 version = "1.0.0"
 description = "Simple file logger that works out of the box with automatic timestamping and session management"
 requires-python = ">=3.9"
@@ -15,4 +15,3 @@ dev = ["maturin>=1.9.6"]
 
 [tool.maturin]
 features = ["pyo3/extension-module"]
-python-source = "python"
