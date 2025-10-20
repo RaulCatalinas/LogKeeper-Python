@@ -1,6 +1,6 @@
 use crate::log_level::LogLevel;
 use crate::logger::get_logger;
-use pyo3::prelude::*;
+use pyo3::prelude::{PyResult, pyclass, pymethods};
 
 #[pyclass]
 pub struct LogKeeper {}

@@ -1,5 +1,3 @@
-use std::fmt;
-
 #[derive(Debug, Clone, Copy)]
 pub enum LogLevel {
     Info,
@@ -16,12 +14,5 @@ impl LogLevel {
             LogLevel::Error => "ERROR",
             LogLevel::Critical => "CRITICAL",
         }
-    }
-}
-
-// Implementa Display para poder usar {} en format!
-impl fmt::Display for LogLevel {
-    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        write!(f, "{}", self.value())
     }
 }
