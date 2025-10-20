@@ -1,6 +1,6 @@
 # LogKeeper
 
-A simple, plug-and-play file logger for Dart with automatic timestamping and session management.
+A simple, plug-and-play file logger for Python with automatic timestamping and session management.
 
 ## Features
 
@@ -17,13 +17,14 @@ A simple, plug-and-play file logger for Dart with automatic timestamping and ses
 Run:
 
 ```bash
-pip install logkeeper
+pip install logkeeper_py
 ```
 
 ### Basic Usage
+**Note:** Your IDE may show `logkeeper_py` in the autocomplete suggestions when importing, but this is just an IDE quirk with native extension modules. Simply ignore it and import `LogKeeper` directly.
 
 ```python
-from logkeeper import LogKeeper
+from logkeeper_py import LogKeeper
 
 def main():
   # Log different levels of messages
@@ -69,30 +70,32 @@ Each log entry follows this format:
 ## Complete Example
 
 ```python
-from logkeeper import LogKeeper
+from logkeeper_py import LogKeeper
 
 def main():
-  LogKeeper.info('Starting application...')
+    LogKeeper.info('Starting application...')
 
-  try:
-    # Your application logic
-    connect_to_database()
-    LogKeeper.info('Database connection established')
+    try:
+        # Your application logic
+        connect_to_database()
+        LogKeeper.info('Database connection established')
 
-    load_user_data()
-    LogKeeper.info('User data loaded successfully')
+        load_user_data()
+        LogKeeper.info('User data loaded successfully')
 
-  except e:
-    LogKeeper.error(f'Failed to initialize: {e}')
-  finally:
-    LogKeeper.info('Shutting down application')
-    await LogKeeper.saveLogs()
+    except Exception as e:
+        LogKeeper.error(f'Failed to initialize: {e}')
+    finally:
+        LogKeeper.info('Shutting down application')
+        LogKeeper.save_logs()
 
-def connectToDatabase():
-  # Database connection logic
+def connect_to_database():
+    # Database connection logic
+    pass
 
-def loadUserData():
-  # Load user data logic
+def load_user_data():
+    # Load user data logic
+    pass
 ```
 
 ## Best Practices
