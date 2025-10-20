@@ -17,11 +17,12 @@ A simple, plug-and-play file logger for Python with automatic timestamping and s
 Run:
 
 ```bash
-pip install logkeeper_py
+pip install logkeeper-py
 ```
 
 ### Basic Usage
-**Note:** Your IDE may show `logkeeper_py` in the autocomplete suggestions when importing, but this is just an IDE quirk with native extension modules. Simply ignore it and import `LogKeeper` directly.
+> [!NOTE]
+> Your IDE may show `logkeeper_py` in the autocomplete suggestions when importing, but this is just an IDE quirk with native extension modules. Simply ignore it and import `LogKeeper` directly.
 
 ```python
 from logkeeper_py import LogKeeper
