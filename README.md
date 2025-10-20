@@ -21,8 +21,7 @@ pip install logkeeper-py
 ```
 
 ### Basic Usage
-> [!NOTE]
-> Your IDE may show `logkeeper_py` in the autocomplete suggestions when importing, but this is just an IDE quirk with native extension modules. Simply ignore it and import `LogKeeper` directly.
+**Note:** Your IDE may show `logkeeper_py` in the autocomplete suggestions when importing, but this is just an IDE quirk with native extension modules. Simply ignore it and import `LogKeeper` directly.
 
 ```python
 from logkeeper_py import LogKeeper

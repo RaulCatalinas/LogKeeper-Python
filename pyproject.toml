@@ -1,6 +1,6 @@
 [project]
 name = "logkeeper_py"
-version = "1.0.0+1"
+version = "1.0.2"
 description = "Simple file logger that works out of the box with automatic timestamping and session management"
 requires-python = ">=3.9"
 readme = "README.md"
