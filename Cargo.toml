@@ -2,11 +2,12 @@
 name = "logkeeper_py"
 version = "1.0.0"
 edition = "2024"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-[lib]
-name = "logkeeper_py"
-crate-type = ["cdylib"]
+homepage = "https://github.com/RaulCatalinas/LogKeeper-Python"
+repository = "https://github.com/RaulCatalinas/LogKeeper-Python"
+readme = "README.md"
+license = "MIT"
+authors = ["Raul Catalinas Esteban"]
+include = ["logkeeper_py.pyi"]
 
 [dependencies]
 chrono = "0.4.42"
